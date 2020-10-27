@@ -1,1 +1,0 @@
-# climate-change-info.github.io
