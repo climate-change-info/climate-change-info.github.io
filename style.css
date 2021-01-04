@@ -39,7 +39,7 @@ body
 
 .linkBar
 {
-    background-color: lightblue;
+    background-color: black;
     overflow: hidden;
 }
 .linkBar a
@@ -47,16 +47,32 @@ body
     float: right;
     text-align: center;
     text-decoration: none;
-    padding: 15px 40px;
-    color: black;
+    padding: 16px 50px;
+    color: lightblue;
 }
 .linkBar a:hover
 {
-    background-color: black;
-    color: lightblue;
+    background-color: lightblue;
+    color: black;
 }
 .linkBar .active
 {
-    background-color: black;
-    color: lightblue;
+    background-color: lightblue;
+    color: black;
+}
+.mainTitle
+{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+.lineForTitle
+{
+    width: 50%;
+    height: 5px;
+    background-color: white;
+}
+.imgLink
+{
+    padding: 5px 5px;
 }
